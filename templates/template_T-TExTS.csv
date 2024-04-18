@@ -1,0 +1,33 @@
+﻿ID,Label,Type,Parent Class,has descriptor,Disjoint Class,Domain,Range
+ID,LABEL,TYPE,SC %,"C ""has descriptor"" some % SPLIT=,",DC %,DOMAIN,RANGE
+obo:book_1,book,class,,"general descriptor, instructional merit descriptors, qualitative measures, quantitative measures",,,
+obo:book_2,general descriptor,class,,,,,
+obo:book_3,instructional merit descriptors,class,,,,,
+obo:book_4,qualitative measures,class,,,,,
+obo:book_5,quantitative measures,class,,,,,
+obo:book_6,has descriptor,object property,,,,,
+obo:book_7,has pages,data property,,,,,xsd:integer
+obo:book_8,has summary,data property,,,,,xsd:string
+obo:book_9,has author,data property,,,,,xsd:string
+obo:book_10,has year of publication,data property,,,,,xsd:integer
+obo:book_11,Romeo and Juliet,class,book,,,,
+obo:book_12,To Kill a Mockingbird,class,book,,,,
+obo:book_13,Great Gatsby,class,book,,,,
+obo:book_14,Of Mice and Men,class,book,,,,
+obo:book_15,Lord of the Flies,class,book,,,,
+obo:book_16,Fahrenheit 451,class,book,,,,
+obo:book_17,Animal Farm,class,book,,,,
+obo:book_18,Julius Caesar,class,book,,,,
+obo:book_19,Macbeth,class,book,,,,
+obo:book_20,1984,class,book,,,,
+obo:book_21,"Odyssey, The",class,book,,,,
+obo:book_22,"Crucible, The",class,book,,,,
+obo:book_23,"Scarlet Letter, The",class,book,,,,
+obo:book_24,Huckleberry Finn,class,book,,,,
+obo:book_25,Grapes of Wrath,class,book,,,,
+obo:book_26,Hamlet,class,book,,,,
+obo:book_27,Frankenstein,class,book,,,,
+obo:book_28,Beowulf,class,book,,,,
+obo:book_29,Canterbury Tales,class,book,,,,
+obo:book_30,Brave New World,class,book,,,,
+obo:book_31,Thousand Splendid Suns,class,book,,,,

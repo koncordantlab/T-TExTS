@@ -1,0 +1,32 @@
+﻿ID,Label,Type,Parent Class,has lexile level,has flesh kincaid,has atos reading level,has reader maturity lower,has reader maturity upper,Disjoint Class,Domain,Range
+ID,LABEL,TYPE,SC %,"C ""has lexile level"" value  %","C ""has flesh-kincaid"" value  %","C ""has atos reading level"" value %","C ""has reader maturity lower"" value %","C ""has reader maturity upper"" value %",DC %,DOMAIN,RANGE
+obo:book_5_1,lexile level,class,obo:book_5,,,,,,,,
+obo:book_5_2,Flesh-Kincaid,class,obo:book_5,,,,,,,,
+obo:book_5_3,ATOS Reading Level,class,obo:book_5,,,,,,,,
+obo:book_5_4,reader maturity,class,obo:book_5,,,,,,,,
+obo:book_5_5,has lexile level,data property,,,,,,,,,xsd:integer
+obo:book_5_6,has flesh-kincaid,data property,,,,,,,,,xsd:float
+obo:book_5_7,has atos reading level,data property,,,,,,,,,xsd:float
+obo:book_5_8,has reader maturity lower,data property,,,,,,,,,xsd:integer
+obo:book_5_9,has reader maturity upper,data property,,,,,,,,,xsd:integer
+obo:book_11,Romeo and Juliet,class,obo:book_1,700,15,8.6,8,12,,,
+obo:book_12,To Kill a Mockingbird,class,obo:book_1,790,7.72,7.03,7,12,,,
+obo:book_13,Great Gatsby,class,obo:book_1,1010,11,7.3,10,12,,,
+obo:book_14,Of Mice and Men,class,obo:book_1,630,5.34,5.14,7,12,,,
+obo:book_15,Lord of the Flies,class,obo:book_1,770,7.03,7.72,7,12,,,
+obo:book_16,Fahrenheit 451,class,obo:book_1,,,,,,,,
+obo:book_17,Animal Farm,class,obo:book_1,,,,,,,,
+obo:book_18,Julius Caesar,class,obo:book_1,,,,,,,,
+obo:book_19,Macbeth,class,obo:book_1,,,,,,,,
+obo:book_20,1984,class,obo:book_1,,,,,,,,
+obo:book_21,"Odyssey, The",class,obo:book_1,,,,,,,,
+obo:book_22,"Crucible, The",class,obo:book_1,,,,,,,,
+obo:book_23,"Scarlet Letter, The",class,obo:book_1,,,,,,,,
+obo:book_24,Huckleberry Finn,class,obo:book_1,,,,,,,,
+obo:book_25,Grapes of Wrath,class,obo:book_1,,,,,,,,
+obo:book_26,Hamlet,class,obo:book_1,,,,,,,,
+obo:book_27,Frankenstein,class,obo:book_1,,,,,,,,
+obo:book_28,Beowulf,class,obo:book_1,,,,,,,,
+obo:book_29,Canterbury Tales,class,obo:book_1,,,,,,,,
+obo:book_30,Brave New World,class,obo:book_1,,,,,,,,
+obo:book_31,Thousand Splendid Suns,class,obo:book_1,830,7.03,5.4,10,12,,,

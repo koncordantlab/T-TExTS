@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_6 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/book_6">
+        <rdfs:label>has descriptor</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_10 -->
+
+    <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/book_10">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>has year of publication</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_7 -->
+
+    <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/book_7">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>has pages</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_8 -->
+
+    <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/book_8">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>has summary</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_9 -->
+
+    <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/book_9">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>has author</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_1 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_1">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/book_6"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/book_2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/book_6"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/book_3"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/book_6"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/book_4"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/book_6"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/book_5"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>book</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_11 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_11">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Romeo and Juliet</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_12 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_12">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>To Kill a Mockingbird</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_13 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_13">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Great Gatsby</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_14 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_14">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Of Mice and Men</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_15 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_15">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Lord of the Flies</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_16 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_16">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Fahrenheit 451</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_17 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_17">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Animal Farm</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_18 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_18">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Julius Caesar</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_19 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_19">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Macbeth</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_2 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_2">
+        <rdfs:label>general descriptor</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_20 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_20">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>1984</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_21 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_21">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Odyssey, The</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_22 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_22">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Crucible, The</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_23 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_23">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Scarlet Letter, The</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_24 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_24">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Huckleberry Finn</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_25 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_25">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Grapes of Wrath</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_26 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_26">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Hamlet</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_27 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_27">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Frankenstein</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_28 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_28">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Beowulf</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_29 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_29">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Canterbury Tales</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_3 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_3">
+        <rdfs:label>instructional merit descriptors</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_30 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_30">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Brave New World</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_31 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_31">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/book_1"/>
+        <rdfs:label>Thousand Splendid Suns</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_4 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_4">
+        <rdfs:label>qualitative measures</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/book_5 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/book_5">
+        <rdfs:label>quantitative measures</rdfs:label>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+
