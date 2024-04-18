@@ -1,7 +1,7 @@
 
 # 📘 T-TExTS: Transformative Text Selection Tool
 
-## 🌐** Introduction**
+## 🌐 ** Introduction**
 - **Cultural Mismatch** 🤝: Highlights the **increasing diversity** in student demographics versus the **stagnant teaching force** and curriculum, advocating for **inclusive education**.
 - **Importance of Text Selection** 📚: Emphasizes the **critical role** of text selection in literacy education and its **impact** on diverse learners, promoting **cultural competence**.
 
